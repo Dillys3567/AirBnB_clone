@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Define City class."""
-form model.base_model import BaseModel
+from models.base_model import BaseModel
 
 class City(BaseModel):
     """Represent a city.
