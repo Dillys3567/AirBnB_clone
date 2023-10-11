@@ -1,6 +1,4 @@
-#!/usr/bin/python3
-"""
-    Test Case For Review Model and its Test
+t Case For Review Model and its Test
 """
 from models import BaseModel
 from models import Review

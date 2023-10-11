@@ -1,6 +1,4 @@
-#!/usr/bin/python3
-"""
-    Test Case For Place Model and its Test
+t Case For Place Model and its Test
 """
 from models import BaseModel
 from models import Place

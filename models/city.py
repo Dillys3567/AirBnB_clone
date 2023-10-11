@@ -1,12 +1,23 @@
 #!/usr/bin/python3
-"""Define City class."""
+"""
+    City modules
+"""
 from models.base_model import BaseModel
+from uuid import UUID
+
 
 class City(BaseModel):
-    """Represent a city.
-    Attriutes:
-        state_id (str): state id
-        name (str):  name of city
+    """
+        city class iherit from base
+            Atrribute:
+                state_id (str)
+                name (str)
     """
     state_id = ""
     name = ""
+
+    def _init_(self, *args, **kwargs):
+        """
+            init
+        """
+        super()._init_(*args, **kwargs)
